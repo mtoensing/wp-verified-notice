@@ -4,7 +4,7 @@
 Plugin Name: WP Verified Notice
 Description: Displays a notice
 Plugin URI:  https://github.com/mtoensing/wp-verfied-notice/
-Version:     1.2
+Version:     1.3
 Author:      MarcDK
 Author URI:  https://marc.tv
 License URI: GPL v2 - http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
