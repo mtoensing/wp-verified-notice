@@ -3,7 +3,7 @@
 /*
 Plugin Name: WP Verified Notice
 Description: Displays a notice
-Plugin URI:  https://github.com/mtoensing/wp-verfied-notice/
+GitHub Plugin URI: mtoensing/wp-verified-notice
 Version:     1.4
 Author:      MarcDK
 Author URI:  https://marc.tv
