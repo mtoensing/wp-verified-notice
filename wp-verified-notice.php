@@ -14,7 +14,10 @@ add_filter( 'comment_form_defaults', 'wpva_comment_form_defaults' );
 
 function wpva_comment_form_defaults( $defaults ) {
 
-	$defaults['comment_notes_after'] = $defaults['comment_notes_after'] . '<p class="comment-notes verified-notice"><span class="marctv-verified"></span> <a rel="nofollow" href="https://marc.tv/?p=26784">Wie bekomme ich einen verifizierten Account?</a></p>';
+	$here = get_permalink();
+	$home_url = home_url();
+
+	$defaults['comment_notes_after'] = $defaults['comment_notes_after'] . '<p class="comment-notes verified-notice"><span class="marctv-verified"></span> <a rel="nofollow" href="https://marc.tv/?p=26784">Wie bekomme ich einen verifizierten Account?</a> - <a href="' . $home_url .  '/wp-login.php?redirect_to='. $here .'#respond">Login</a></p>';
 
 	return $defaults;
 }
