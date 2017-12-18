@@ -1,20 +1,27 @@
 .byuser > .comment-body > .comment-meta > .comment-author > .fn:after,
 .marctv-verified:after {
     content: "\f147";
-    background-color: #eaeef3;
+    background-color: #3b5998;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     border-radius: 50%;
-    color: #3b5998;
-    -webkit-font-smoothing: antialiased;
-    font: normal 16px/1 'dashicons';
-    height: 20px;
-    line-height: 20px;
+    color: #fff;
     margin-left: 5px;
-    text-align: center;
+    display: inline-block;
     width: 20px;
-    font-weight: 300;
+    height: 20px;
+    font-size: 20px;
+    line-height: 1;
+    font-family: dashicons;
+    text-decoration: inherit;
+    font-weight: 400;
+    font-style: normal;
+    vertical-align: top;
+    text-align: center;
+    transition: color .1s ease-in 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .verified-notice a{
