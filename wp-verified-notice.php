@@ -4,7 +4,7 @@
 Plugin Name: WP Verified Notice
 Description: Displays a notice that verified accounts exists
 GitHub Plugin URI: mtoensing/wp-verified-notice
-Version:     1.7
+Version:     1.8
 Author:      MarcDK
 Author URI:  https://marc.tv
 License URI: GPL v2 - http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
@@ -24,7 +24,7 @@ function wpva_comment_form_defaults( $defaults ) {
 
 function add_wpva_enqueue_scripts() {
 	wp_enqueue_style(
-		"marctv-verified", WP_PLUGIN_URL . "/wp-verified-notice/wp-verified.css", true, "1.6" );
+		"marctv-verified", WP_PLUGIN_URL . "/wp-verified-notice/wp-verified.css", true, "1.8" );
 
 }
 
