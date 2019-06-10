@@ -4,7 +4,7 @@
 Plugin Name: WP Verified Notice
 Description: Displays a notice that verified accounts exists
 GitHub Plugin URI: mtoensing/wp-verified-notice
-Version:     1.9
+Version:     2.0
 Author:      MarcDK
 Author URI:  https://marc.tv
 License URI: GPL v2 - http://www.gnu.org/licenses/old-licenses/gpl-2.0.html

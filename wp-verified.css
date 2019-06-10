@@ -1,37 +1,31 @@
-.byuser > .comment-body > .comment-meta > .comment-author > .says:before,
+.byuser > .comment-body > .comment-meta > .comment-author .fn:after,
 .marctv-verified:after {
-    content: "\f147";
-    background-color: #3b5998;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    border-radius: 50%;
-    color: #fff;
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    font-size: 20px;
-    line-height: 1;
-    font-family: dashicons;
-    text-decoration: inherit;
-    font-weight: 400;
-    font-style: normal;
-    vertical-align: top;
-    text-align: center;
-    transition: color .1s ease-in 0;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    visibility: visible;
+  content: "\2713 ";
+  background-color: #3A89C0;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  color: #fff;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  font-size: 18px;
+  line-height: 1;
+  text-decoration: inherit;
+  font-weight: 400;
+  font-style: normal;
+  vertical-align: top;
+  text-align: center;
+  font-family: Verdana, sans-serif;
+  margin-left: 2px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  visibility: visible;
 }
 
-html .comment-author .says {
-    display: inline;
-    color: #fff;
-    visibility: hidden;
-}
-
-.verified-notice a{
-    text-decoration: underline;
+html .comment .comment-author .post-author-badge {
+  display: none;
 }
 
 .verified-notice {
@@ -42,4 +36,3 @@ html .comment-author .says {
 .logged-in .gravatar-notice {
     display:none;
 }
-
