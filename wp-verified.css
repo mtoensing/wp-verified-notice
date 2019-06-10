@@ -24,6 +24,10 @@
   visibility: visible;
 }
 
+.byuser > .comment-body > .comment-meta > .comment-author a:hover .fn:after{
+  background-color: #004e75;
+}
+
 html .comment .comment-author .post-author-badge {
   display: none;
 }
