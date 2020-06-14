@@ -2,8 +2,8 @@
 Contributors: MarcDK
 Tags: marctv, verification, notice
 Requires at least: 3.0
-Tested up to: 4.8
-Stable tag: 2.1
+Tested up to: 5.0
+Stable tag: 3.0
 GitHub Plugin URI: mtoensing/wp-verified-notice
 
 == Description ==
